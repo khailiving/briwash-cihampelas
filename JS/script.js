@@ -103,11 +103,11 @@ function renderMarquee(container, data) {
     
     // Looping set pertama
     data.forEach(item => {
-        htmlContent += `<img src="${item.src}" alt="${item.alt}" class="h-9 md:h-12 object-contain rounded-lg shadow-sm hover:scale-110 transition-transform">`;
+        htmlContent += `<img src="${item.src}" alt="${item.alt}" class="h-10 md:h-12 object-contain rounded-lg shadow-sm hover:scale-110 transition-transform">`;
     });
     // Looping set kedua (duplikasi agar gulir tidak putus)
     data.forEach(item => {
-        htmlContent += `<img src="${item.src}" alt="${item.alt}" class="h-9 md:h-12 object-contain rounded-lg shadow-sm hover:scale-110 transition-transform">`;
+        htmlContent += `<img src="${item.src}" alt="${item.alt}" class="h-10 md:h-12 object-contain rounded-lg shadow-sm hover:scale-110 transition-transform">`;
     });
 
     container.innerHTML = htmlContent;
