@@ -566,7 +566,7 @@ if (formPickup) {
 
         const nomorTujuan = "6281120081011"; 
 
-        const pesanWA = `*FORM PICKUP LAUNDRY BRIWASH*%0A%0A
+        const pesanWA = `*FORM PICKUP LAUNDRY BRIWASH CIHAMPELAS*%0A%0A
 *IDENTITAS*%0A
 - Nama Lengkap : ${nama}%0A
 - Alamat Pickup : ${alamat}%0A
@@ -582,7 +582,7 @@ if (formPickup) {
 - Ada yang Luntur : ${luntur}%0A
 - Layanan : ${layanan}%0A
 - Catatan : ${catatan}%0A%0A
-> *PERINGATAN*: Dengan order artinya menyetujui *Syarat dan Ketentuan* yang berlaku. Pembayaran hanya via QRIS/CASH di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
+> *PERINGATAN*: Dengan saya order, saya menyetujui *Syarat dan Ketentuan* yang tertera. Pembayaran hanya via QRIS/CASH di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
 
         const urlWA = `https://api.whatsapp.com/send?phone=${nomorTujuan}&text=${pesanWA}`;
         window.open(urlWA, '_blank');
