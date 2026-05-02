@@ -580,10 +580,9 @@ if (formPickup) {
 - Ada Barang Berharga : ${berharga}%0A
 - Tas Cucian : ${tas}%0A
 - Ada yang Luntur : ${luntur}%0A
-- Layanan : ${layanan}%0A%0A
+- Layanan : ${layanan}%0A
 - Catatan : ${catatan}%0A%0A
-*PERINGATAN*:
-Dengan order artinya menyetujui *Syarat dan Ketentuan* yang berlaku. Pembayaran hanya via QRIS/CASH di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
+> *PERINGATAN*: Dengan order artinya menyetujui *Syarat dan Ketentuan* yang berlaku. Pembayaran hanya via QRIS/CASH di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
 
         const urlWA = `https://api.whatsapp.com/send?phone=${nomorTujuan}&text=${pesanWA}`;
         window.open(urlWA, '_blank');
