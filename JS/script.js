@@ -582,9 +582,8 @@ if (formPickup) {
 - Ada yang Luntur : ${luntur}%0A
 - Layanan : ${layanan}%0A
 - Catatan : ${catatan}%0A%0A
-> Dengan saya order, saya menyetujui *Syarat dan Ketentuan* yang tertera.%0A%0A
-PERINGATAN:%0A
-Pembayaran hanya via QRIS/CASH di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
+_Dengan saya order, saya menyetujui *Syarat dan Ketentuan* yang tertera._%0A%0A
+> *PERINGATAN:* Pembayaran hanya via *QRIS/CASH* di Outlet. Estimasi waktu dimulai setelah pembayaran lunas. Kami tidak bertanggung jawab atas transfer di luar sistem resmi. Komplain wajib Video Unboxing.`;
 
         const urlWA = `https://api.whatsapp.com/send?phone=${nomorTujuan}&text=${pesanWA}`;
         window.open(urlWA, '_blank');
